@@ -1,0 +1,15 @@
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\bin\Debug\net10.0\NovaWarehouse.exe
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\bin\Debug\net10.0\NovaWarehouse.deps.json
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\bin\Debug\net10.0\NovaWarehouse.runtimeconfig.json
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\bin\Debug\net10.0\NovaWarehouse.dll
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\bin\Debug\net10.0\NovaWarehouse.pdb
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.AssemblyInfoInputs.cache
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.AssemblyInfo.cs
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.csproj.CoreCompileInputs.cache
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.sourcelink.json
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.dll
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\refint\NovaWarehouse.dll
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.pdb
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\NovaWarehouse.genruntimeconfig.cache
+C:\Users\alumno.DAM2-25\Desktop\NovaWarehouse\obj\Debug\net10.0\ref\NovaWarehouse.dll

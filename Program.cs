@@ -181,14 +181,15 @@ class Order
 
 */
 
+/*
 Console.Write("Enter quantity for SKU-4471: ");
 string? rawQuantity = Console.ReadLine();
 
 Console.Write("peso  del paquete (kg): ");
-string? input = Console.ReadLine(); 
+string? input = Console.ReadLine();
 
 
-if (!double.TryParse(input, out  double weight))
+if (!double.TryParse(input, out double weight) || weight <= 0)
 {
     Console.WriteLine("El valor introducido no es numerico ");
     return;
@@ -196,8 +197,86 @@ if (!double.TryParse(input, out  double weight))
 
 if (!int.TryParse(rawQuantity, out int quantity) || quantity <= 500 || quantity <= 500)
 {
-Console.WriteLine("Invalid quantity. Order line rejected.");
-return;
+    Console.WriteLine("Invalid quantity. Order line rejected.");
+    return;
 }
 
 Console.WriteLine($"Added {quantity} units of SKU-4471 to the order.");
+*/
+
+/*
+sinstasis del switch expression
+enum CustomerType { Regular, Premium, Vip }
+decimal discount = customerType switch
+{
+CustomerType.Regular => 0.00m,
+CustomerType.Premium => 0.10m,
+CustomerType.Vip => 0.20m,
+_ => 0.00m
+};
+*/
+
+
+
+//Pattern matching: is y patrones
+/*
+
+// Patrón de tipo
+if (shipment is ExpressPackage express)
+{
+Console.WriteLine($"Express, priority {express.PriorityLevel}");
+}
+// Patrón relacional.
+string sizeCategory = weightKg switch
+{
+< 1.0 => "Small",
+< 10.0 => "Medium",
+_ => "Large"
+};
+*/
+
+/*
+// if/else clásico: equivalente al switch expression anterior
+string Classify(Order order)
+{
+    if (order.Status == "Cancelled") return "Ignore";
+    if (order.Total > 1000 && order.Status == "Pending") return "Priority review";
+    if (order.Total > 1000) return "High value";
+    if (order.Status == "Pending") return "Awaiting confirmation";
+    if (order.Total  == 0 ) return "Free order";
+    return "Standard";
+}
+
+CustomerType customerType = CustomerType.Regular;
+
+decimal discount = customerType switch
+{
+
+    CustomerType.Regular => 0.00m,
+    CustomerType.Premium => 0.10m,
+    CustomerType.Vip => 0.20m,
+    _ => 0.00m
+};
+
+
+record Order(int Total, string Status)
+{
+    public int Total { get; internal set; }
+    public string Status { get; internal set; }
+}
+
+class Customer
+{
+    public bool Active { get; internal set; }
+    public bool IsVip { get; internal set; }
+}
+enum CustomerType { Regular, Premium, Vip }
+
+*/
+
+//Record modelar datos inmutables no se pueden cambiar las propiedades 
+/*
+record Product(string Name, decimal Price, int Stock);
+var bracket = new Product("Steel Bracket", 4.25m, 120);
+var restocked = bracket with { Stock = 200 }; // copia inmutable con un cambio
+*/
